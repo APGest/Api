@@ -12719,11 +12719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrzej\\Desktop\\CRUDCustomer\\Api\\CRUDCutomer\\CRUDCutomer\\CRUDCustomer.csproj",
+      "projectUniqueName": "C:\\Users\\Andrzej\\Documents\\Api\\CRUDCutomer\\CRUDCustomer.csproj",
       "projectName": "CRUDCustomer",
-      "projectPath": "C:\\Users\\Andrzej\\Desktop\\CRUDCustomer\\Api\\CRUDCutomer\\CRUDCutomer\\CRUDCustomer.csproj",
+      "projectPath": "C:\\Users\\Andrzej\\Documents\\Api\\CRUDCutomer\\CRUDCustomer.csproj",
       "packagesPath": "C:\\Users\\Andrzej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrzej\\Desktop\\CRUDCustomer\\Api\\CRUDCutomer\\CRUDCutomer\\obj\\",
+      "outputPath": "C:\\Users\\Andrzej\\Documents\\Api\\CRUDCutomer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

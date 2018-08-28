@@ -9,10 +9,11 @@ namespace CRUDCutomer.Repository
 {
     public class CustomerRepository
     {
+        string connectionString = "Server=ANDRZEJPC\\SQLEXPRESS; Database = Customers; Integrated Security=true;";
         public List<Customer> ReadAll()
         {
             List<Customer> customers = new List<Customer>();
-            using (SqlConnection conn = new SqlConnection("Server=ANDRZEJPC\\SQLEXPRESS; Database = Customers; Integrated Security=true;"))
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
 
                 SqlCommand cmd = new SqlCommand();
@@ -39,7 +40,7 @@ namespace CRUDCutomer.Repository
 
         public Customer Read(int id)
         {
-            using (SqlConnection conn = new SqlConnection("Server=ANDRZEJPC\\SQLEXPRESS; Database = Customers; Integrated Security=true;"))
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 Customer customer = new Customer();
                 SqlCommand cmd = new SqlCommand();
@@ -69,7 +70,7 @@ namespace CRUDCutomer.Repository
 
         public void Create(Customer customer)
         {
-            using (SqlConnection conn = new SqlConnection("Server=ANDRZEJPC\\SQLEXPRESS; Database = Customers; Integrated Security=true;"))
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 String query = "INSERT INTO Customer (Name,SurName,PhoneNumber,Address) VALUES (@Name,@SurName,@PhoneNumber,@Address)";
 
@@ -90,10 +91,10 @@ namespace CRUDCutomer.Repository
 
         public void Update(Customer customer, int id)
         {
-            using (SqlConnection conn = new SqlConnection("Server=ANDRZEJPC\\SQLEXPRESS; Database = Customers; Integrated Security=true;"))
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 String query = "UPDATE Customer SET Name=@Name, SurName=@SurName, PhoneNumber=@PhoneNumber, Address=@Address WHERE Id=@Id";
-                              
+
 
                 using (SqlCommand command = new SqlCommand(query, conn))
                 {
@@ -112,7 +113,7 @@ namespace CRUDCutomer.Repository
 
         public void Delete(int id)
         {
-            using (SqlConnection conn = new SqlConnection("Server=ANDRZEJPC\\SQLEXPRESS; Database = Customers; Integrated Security=true;"))
+            using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = conn;
