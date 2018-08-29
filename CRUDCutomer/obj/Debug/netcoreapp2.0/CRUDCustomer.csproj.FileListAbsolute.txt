@@ -9,3 +9,14 @@ C:\Users\Andrzej\Desktop\CRUDCustomer\Api\CRUDCutomer\CRUDCutomer\bin\Debug\netc
 C:\Users\Andrzej\Desktop\CRUDCustomer\Api\CRUDCutomer\CRUDCutomer\obj\Debug\netcoreapp2.0\CRUDCustomer.dll
 C:\Users\Andrzej\Desktop\CRUDCustomer\Api\CRUDCutomer\CRUDCutomer\obj\Debug\netcoreapp2.0\CRUDCustomer.pdb
 C:\Users\Andrzej\Desktop\CRUDCustomer\Api\CRUDCutomer\CRUDCutomer\obj\Debug\netcoreapp2.0\CRUDCustomer.csprojAssemblyReference.cache
+C:\Users\Andrzej\Documents\Api\CRUDCutomer\bin\Debug\netcoreapp2.0\CRUDCustomer.deps.json
+C:\Users\Andrzej\Documents\Api\CRUDCutomer\bin\Debug\netcoreapp2.0\CRUDCustomer.runtimeconfig.json
+C:\Users\Andrzej\Documents\Api\CRUDCutomer\bin\Debug\netcoreapp2.0\CRUDCustomer.runtimeconfig.dev.json
+C:\Users\Andrzej\Documents\Api\CRUDCutomer\bin\Debug\netcoreapp2.0\CRUDCustomer.dll
+C:\Users\Andrzej\Documents\Api\CRUDCutomer\bin\Debug\netcoreapp2.0\CRUDCustomer.pdb
+C:\Users\Andrzej\Documents\Api\CRUDCutomer\obj\Debug\netcoreapp2.0\CRUDCustomer.csprojAssemblyReference.cache
+C:\Users\Andrzej\Documents\Api\CRUDCutomer\obj\Debug\netcoreapp2.0\CRUDCustomer.csproj.CoreCompileInputs.cache
+C:\Users\Andrzej\Documents\Api\CRUDCutomer\obj\Debug\netcoreapp2.0\CRUDCustomer.AssemblyInfoInputs.cache
+C:\Users\Andrzej\Documents\Api\CRUDCutomer\obj\Debug\netcoreapp2.0\CRUDCustomer.AssemblyInfo.cs
+C:\Users\Andrzej\Documents\Api\CRUDCutomer\obj\Debug\netcoreapp2.0\CRUDCustomer.dll
+C:\Users\Andrzej\Documents\Api\CRUDCutomer\obj\Debug\netcoreapp2.0\CRUDCustomer.pdb
